@@ -1,0 +1,2 @@
+lensk = []
+print(len(lensk))
