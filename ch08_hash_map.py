@@ -89,7 +89,6 @@ class HashMap[TKey, TValue]:
         return key in self.buckets[index]
 
 list_of_subjects: list[str] = ["math", "science", "computer science", "art", "history", "georgraphy", "design technology", "psychology"]
-
 m: HashMap[str, str] = HashMap(8)
 
 N_CASES = 100
