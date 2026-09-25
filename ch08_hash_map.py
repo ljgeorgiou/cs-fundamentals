@@ -112,3 +112,35 @@ for k, v in test_cases:
 
 print(f"Accuracy: {correct}/{N_CASES}")
 print(m.size) #100
+
+#
+# list_of_subjects: list[str] = ["math", "science", "computer science", "art", "history", "georgraphy", "design technology", "psychology"]
+
+# m: HashMap[str, str] = HashMap(8)
+
+# N_CASES = 100
+# GREEN = "\033[0;32m"
+# RED = "\033[0;31m"
+# CLEAR = "\033[0;m"
+
+# test_cases = [
+#     (
+#         str(i),
+#         list_of_subjects[random.randint(0, len(list_of_subjects) - 1)],
+#     ) 
+#     for i in range(N_CASES)
+# ]
+
+# for k, v in test_cases:
+#     m.set(k, v)
+
+# correct = 0
+# for k, v in test_cases:
+#     retrieved = m.get(k)
+#     colour = GREEN if retrieved == v else RED
+#     print(f"{colour}Got {retrieved}, expected {v}{CLEAR}")
+#     correct += int(retrieved == v)
+
+# print("-------------------")
+# print(f"Accuracy: {correct}/{N_CASES} ({correct / N_CASES:.2f})")
+# print(m.size) # 100
