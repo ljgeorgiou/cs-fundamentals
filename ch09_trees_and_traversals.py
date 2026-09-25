@@ -5,7 +5,6 @@ class Node:
         self.right: Node | None = None
 
     def find_max(self) -> int | float:
-
         def helper(item: Node | None, biggestSoFar: int) -> int | float:
             if item is None:
                 return float("-inf")
@@ -16,10 +15,7 @@ class Node:
                 return item.value
             else:
                 return biggest
-
         return helper(self, self.value)
-
-
 
     def count(self) -> int:
         def helper(item: Node | None) -> int:
@@ -30,7 +26,6 @@ class Node:
         return helper(self)
 
     def count_leaves(self) -> int:
-
         def helper(item: Node | None) -> int:
             if item is None:
                 return 0
@@ -39,8 +34,6 @@ class Node:
             if left_side == 0 and right_side == 0:
                 return 1
             return left_side + right_side
-
-
         return helper(self)
 
     def total(self) -> int:
