@@ -13,3 +13,4 @@ Each file covers one topic:
 ## Blog posts
 
 - [Big-O explained simply](https://dev.to/ljgeorgiou/big-o-explained-simply-4888)
+- [BFS vs DFS explained with one small graph](https://dev.to/ljgeorgiou/bfs-vs-dfs-explained-with-one-small-graph-3dj4)
