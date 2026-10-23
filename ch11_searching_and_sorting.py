@@ -39,6 +39,18 @@ print(merge([], [1, 2]))                      # [1, 2]
 print(merge([1, 2], []))                      # [1, 2]
 print(merge([1, 1], [1]))                     # [1, 1, 1]
 
+def binary_search(items: list[int], target: int) -> bool:
+    low_idx = 0
+    high_idx = len(items) - 1
+    while low_idx <= high_idx:
+        current_idx = (high_idx + low_idx) // 2
+        if items[current_idx] == target:
+            return True
+        elif items[current_idx] < target:
+            low_idx = current_idx + 1
+        else:
+            high_idx = current_idx - 1
+    return False
 
 def count_occurrences(sorted_items: list[int], target: int) -> int:
     
