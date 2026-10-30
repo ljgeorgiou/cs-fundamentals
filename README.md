@@ -2,8 +2,6 @@
 
 My work as I learn computer science fundamentals, data structures, algorithms, and Big O, building each concept from scratch in Python to understand how it really works.
 
-This is Phase 2 of my self-study path towards becoming an AI engineer.
-
 ## What's in here
 
 Each file covers one topic:
